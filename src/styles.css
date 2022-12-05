@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bangers&display=swap');
+
+*,
+*::before,
+*::after{
+    padding:0;
+    margin:0;
+    box-sizing:inherit;
+}
+
+body {
+    font-family: 'arimo', sans-serif;
+    background-image: url('./assets/images/long.jpg'), url('./assets/images/long.jpg');
+    background-position:left top, right top;
+    background-repeat:no-repeat no-repeat;
+    background-attachment: fixed;
+    background-size:60vh, 60vh;
+    font-size:100%;
+}
